@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+.title {
+  font-size: 3rem;
+  max-width: 80%;
+  margin-top: 12px;
+}
+.sub-title {
+  font-size: 2rem;
+  max-width: 80%;
+  margin-bottom: 12px;
+}
+#searchInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+#myChart1,
+#myChart2,
+#myChart3 {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+.card {
+  margin: 8px;
+  padding: 12px;
+  background-color: #d6d8db;
+  font-size: 1rem;
+  color: black;
+}
